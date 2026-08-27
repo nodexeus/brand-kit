@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Type — Nodexeus Brand Kit</title>
+<link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="assets/logo/mark-amber-on-dark.svg" width="24" height="24" alt="" aria-hidden="true">
+      <span>Nodexeus Brand Kit</span>
+    </a>
+    <nav>
+      <a href="index.html">Overview</a>
+      <a href="logo.html">Logo</a>
+      <a href="color.html">Color</a>
+      <a href="type.html" aria-current="page">Type</a>
+      <a href="voice.html">Voice</a>
+      <a href="social.html">Social</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <span class="badge">Type</span>
+    <h1>Typeface</h1>
+    <div class="prose">
+      <p>Two families: GeistSans for UI, headings, and body copy; GeistMono for anything technical or data-shaped — status displays, code, hex values. This kit doesn't vendor the actual font files (no build step, no font licensing to manage here); pages fall back to the system sans/mono stack. Get the real fonts from <a href="https://github.com/vercel/geist-font" target="_blank" rel="noopener noreferrer">vercel/geist-font</a> if you need pixel-accurate rendering.</p>
+    </div>
+
+    <h2>GeistSans</h2>
+    <div class="type-sample">
+      <span class="label">Heading / 800</span>
+      <div style="font-family: var(--font-sans); font-weight: 800; font-size: 2rem; letter-spacing: -0.02em;">We run the infrastructure that has to stay up.</div>
+    </div>
+    <div class="type-sample">
+      <span class="label">Body / 400</span>
+      <div style="font-family: var(--font-sans); font-weight: 400; font-size: 1rem;">Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them.</div>
+    </div>
+    <div class="type-sample">
+      <span class="label">Label / 600, uppercase</span>
+      <div style="font-family: var(--font-sans); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em;">Blockchain · AI · Web3</div>
+    </div>
+
+    <h2>GeistMono</h2>
+    <div class="type-sample">
+      <span class="label">Status display</span>
+      <div class="mono" style="font-size: 0.875rem;">eth-mainnet-01&nbsp;&nbsp;&nbsp;synced<br>base-mainnet-01&nbsp;&nbsp;syncing 98%</div>
+    </div>
+    <div class="type-sample">
+      <span class="label">Hex / code</span>
+      <div class="mono" style="font-size: 0.875rem;">--primary: #fdc700;</div>
+    </div>
+
+    <h2>Usage</h2>
+    <div class="prose">
+      <ul>
+        <li>GeistSans for all UI copy: headings, body, buttons, nav.</li>
+        <li>GeistMono for anything technical: status/data displays, code, config, hex or numeric values called out for precision.</li>
+        <li>Default weight 400 for body text; 600-800 for headings and emphasis, never for full paragraphs.</li>
+      </ul>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Nodexeus Technologies</span>
+    <span><a href="brand.json">brand.json</a> · <a href="https://www.nodexeus.com" target="_blank" rel="noopener noreferrer">nodexeus.com</a></span>
+  </div>
+</footer>
+</body>
+</html>

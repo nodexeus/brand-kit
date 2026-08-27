@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo — Nodexeus Brand Kit</title>
+<link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <img src="assets/logo/mark-amber-on-dark.svg" width="24" height="24" alt="" aria-hidden="true">
+      <span>Nodexeus Brand Kit</span>
+    </a>
+    <nav>
+      <a href="index.html">Overview</a>
+      <a href="logo.html" aria-current="page">Logo</a>
+      <a href="color.html">Color</a>
+      <a href="type.html">Type</a>
+      <a href="voice.html">Voice</a>
+      <a href="social.html">Social</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <span class="badge">Logo</span>
+    <h1>The mark</h1>
+    <div class="prose">
+      <p>The Nodexeus mark is a rounded arch glyph, set in amber by default. Use the full-color version on dark backgrounds — reach for a monochrome variant only when the context forces a single ink color or needs better contrast.</p>
+    </div>
+
+    <h2>Full-color mark</h2>
+    <div class="logo-display on-dark">
+      <img src="assets/logo/mark-amber-on-dark.svg" width="96" height="96" alt="Nodexeus mark, full color">
+    </div>
+    <div class="logo-display on-light">
+      <img src="assets/logo/mark-black-on-light.svg" width="96" height="96" alt="Nodexeus mark, black variant">
+    </div>
+
+    <h2>Wordmark lockup</h2>
+    <div class="logo-display on-dark">
+      <img src="assets/logo/wordmark-lockup-dark.svg" height="48" alt="Nodexeus wordmark, dark background lockup">
+    </div>
+    <div class="logo-display on-light">
+      <img src="assets/logo/wordmark-lockup-light.svg" height="48" alt="Nodexeus wordmark, light background lockup">
+    </div>
+
+    <h2>Color variants</h2>
+    <div class="swatch-grid">
+      <div class="swatch">
+        <div class="logo-display on-dark" style="padding:1.5rem;">
+          <img src="assets/logo/mark-amber-on-dark.svg" width="48" height="48" alt="Full color mark">
+        </div>
+        <div class="swatch-label">Full color<span class="hex">mark-amber-on-dark.svg</span></div>
+      </div>
+      <div class="swatch">
+        <div class="logo-display on-light" style="padding:1.5rem;">
+          <img src="assets/logo/mark-black-on-light.svg" width="48" height="48" alt="Black monochrome mark">
+        </div>
+        <div class="swatch-label">Black<span class="hex">mark-black-on-light.svg</span></div>
+      </div>
+      <div class="swatch">
+        <div class="logo-display on-dark" style="padding:1.5rem; color:#fdc700;">
+          <!-- inline copy of assets/logo/mark-mono.svg — keep path data in sync if that file changes -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="48" height="48" role="img" aria-label="Monochrome currentColor mark">
+            <g id="glyph" transform="translate(48,48)">
+              <path fill="currentColor" d="M0,80 L0,148 Q0,160 12,160 L40,160 L40,80 A40,40 0 0 1 120,80 L120,160 L148,160 Q160,160 160,148 L160,80 A80,80 0 0 0 0,80 Z"/>
+            </g>
+          </svg>
+        </div>
+        <div class="swatch-label">Mono (tintable)<span class="hex">mark-mono.svg</span></div>
+      </div>
+    </div>
+
+    <h2>Clearspace and minimum size</h2>
+    <div class="prose">
+      <p>Keep clearspace equal to at least 1x the icon's height on every side. Never render the mark smaller than 24px — below that, use the favicon variant instead, which is simplified for legibility at small sizes.</p>
+    </div>
+
+    <h2>Misuse</h2>
+    <div class="prose">
+      <ul>
+        <li>Don't recolor the mark — amber is brand-specific, not a placeholder.</li>
+        <li>Don't add drop shadows, outlines, or bevels.</li>
+        <li>Don't stretch or distort the mark's proportions.</li>
+        <li>Don't place the full-color mark on busy or low-contrast backgrounds — use a monochrome variant instead.</li>
+        <li>Don't redraw or trace the glyph by hand — always use the source SVG files.</li>
+      </ul>
+    </div>
+
+    <h2>Favicon</h2>
+    <div class="logo-display on-dark" style="padding:1.5rem;">
+      <img src="assets/logo/favicon.svg" width="32" height="32" alt="Nodexeus favicon">
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Nodexeus Technologies</span>
+    <span><a href="brand.json">brand.json</a> · <a href="https://www.nodexeus.com" target="_blank" rel="noopener noreferrer">nodexeus.com</a></span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "name": "Nodexeus Technologies",
+  "tagline": "We run the infrastructure that has to stay up.",
+  "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them.",
+  "website": "https://www.nodexeus.com",
+  "colors": {
+    "ink": "#111114",
+    "inkForeground": "#fafafa",
+    "inkMuted": "#a4a4ac",
+    "white": "#ffffff",
+    "muted": "#f4f4f5",
+    "mutedForeground": "#71717b",
+    "border": "#e4e4e7",
+    "primary": "#fdc700",
+    "amberDeep": "#dfa800",
+    "chartScale": ["#ffd230", "#fe9a00", "#e17100", "#bb4d00", "#973c00"],
+    "destructive": "#e7000b"
+  },
+  "fonts": {
+    "sans": "GeistSans",
+    "mono": "GeistMono"
+  },
+  "logo": {
+    "markAmberOnDark": "assets/logo/mark-amber-on-dark.svg",
+    "markBlackOnLight": "assets/logo/mark-black-on-light.svg",
+    "markMono": "assets/logo/mark-mono.svg",
+    "wordmarkLockupDark": "assets/logo/wordmark-lockup-dark.svg",
+    "wordmarkLockupLight": "assets/logo/wordmark-lockup-light.svg",
+    "favicon": "assets/logo/favicon.svg",
+    "clearspace": "1x icon height on all sides",
+    "minSizePx": 24
+  },
+  "voice": {
+    "principles": [
+      "engineer-to-engineer, not marketing-to-buyer",
+      "specific beats vague — name the failure mode, not the fear",
+      "state limits honestly instead of overselling",
+      "short, declarative sentences over hedged ones"
+    ],
+    "avoid": [
+      "synergy",
+      "seamless",
+      "cutting-edge",
+      "revolutionize",
+      "unlock",
+      "empower",
+      "excessive exclamation points",
+      "emoji stacking"
+    ],
+    "sampleQuotes": [
+      "We run the infrastructure that has to stay up.",
+      "Anyone can rent you a server. The work is everything after.",
+      "Not a tarball and good luck.",
+      "We do not publish a blanket uptime guarantee, because one that covers every network and every hardware configuration would be worth nothing."
+    ]
+  },
+  "socialContentPillars": [
+    "network/client upgrades and fork readiness",
+    "uptime and incident transparency (what broke, what we did)",
+    "new network support / infra launches",
+    "AI agent and web3 engineering work in production",
+    "plain-spoken infra/industry commentary"
+  ],
+  "socialConventions": {
+    "hashtags": "sparingly, only when naming a network or event",
+    "emoji": "none, or a single one at most",
+    "postLength": "1-3 short sentences; threads only when reporting a real incident or upgrade in steps",
+    "cta": "specific and low-pressure (e.g. 'ask us what that costs'), never hype-driven"
+  },
+  "examplePosts": {
+    "onBrand": [
+      "Base client update landed this week. We're on it across every base-mainnet node we run — no action needed if that's us.",
+      "Uptime numbers only mean something next to the incident that tested them. Ask us about the fork we caught at 3am last month.",
+      "New: private RPC endpoints for Solana, same operating model as our Ethereum fleet. Talk to an engineer if you're evaluating providers."
+    ],
+    "offBrand": [
+      {
+        "post": "🚀🚀 Revolutionizing Web3 infrastructure with our CUTTING-EDGE platform!! #blockchain #AI #web3 #innovation #disrupt",
+        "reason": "hype language, emoji stacking, and hashtag stuffing — the voice guide explicitly avoids all three"
+      },
+      {
+        "post": "We guarantee 99.999% uptime on every network, no exceptions!",
+        "reason": "the brand explicitly refuses blanket uptime guarantees — this contradicts stated positioning"
+      }
+    ]
+  },
+  "visualCardRules": {
+    "background": "ink (#111114) or white, no gradients beyond the existing chart scale",
+    "logoPlacement": "top-left or centered, minimum clearspace = 1x icon height",
+    "typography": "GeistSans for headline text on cards",
+    "accentUsage": "amber (#fdc700) for at most one focal element per card"
+  }
+}
