@@ -1,7 +1,7 @@
 {
   "name": "Nodexeus Technologies",
   "tagline": "We run the infrastructure that has to stay up.",
-  "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them.",
+  "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them, on a custom-built bare-metal platform we own top to bottom, not a resold cloud stack. That control is why deploys land faster than most managed cloud providers.",
   "website": "https://www.nodexeus.com",
   "colors": {
     "ink": "#111114",
@@ -33,9 +33,11 @@
   "voice": {
     "principles": [
       "engineer-to-engineer, not marketing-to-buyer",
-      "specific beats vague — name the failure mode, not the fear",
+      "specific beats vague: name the failure mode, not the fear",
       "state limits honestly instead of overselling",
-      "short, declarative sentences over hedged ones"
+      "short, declarative sentences over hedged ones",
+      "our infrastructure is custom-built, not off-the-shelf: say so plainly, backed by the mechanism or number that proves it",
+      "a blunt, even provocative claim is fine when it's true and specific: that's confidence, not hype"
     ],
     "avoid": [
       "synergy",
@@ -45,13 +47,20 @@
       "unlock",
       "empower",
       "excessive exclamation points",
-      "emoji stacking"
+      "emoji stacking",
+      "bold claims with nothing concrete behind them",
+      "em dashes in any post copy; use a period, comma, or colon instead"
     ],
     "sampleQuotes": [
       "We run the infrastructure that has to stay up.",
       "Anyone can rent you a server. The work is everything after.",
       "Not a tarball and good luck.",
-      "We do not publish a blanket uptime guarantee, because one that covers every network and every hardware configuration would be worth nothing."
+      "We do not publish a blanket uptime guarantee, because one that covers every network and every hardware configuration would be worth nothing.",
+      "We didn't rent a cloud stack and slap a logo on it. We built the bare metal underneath it ourselves.",
+      "Most 'cloud platforms' are someone else's hardware with a markup. Ours is ours, which is why a deploy here beats theirs on speed.",
+      "No hypervisor tax, no noisy neighbors, no waiting on someone else's capacity plan: that's what owning the metal buys you.",
+      "Onboarding a new custom chain takes competitors weeks and a lot of your budget. We do it faster and for less, because we're not renting the hardware underneath it.",
+      "Run it in our data center or yours, on our hardware or your own. Same bare-metal performance, same automated updates, either way."
     ]
   },
   "socialContentPillars": [
@@ -59,28 +68,35 @@
     "uptime and incident transparency (what broke, what we did)",
     "new network support / infra launches",
     "AI agent and web3 engineering work in production",
-    "plain-spoken infra/industry commentary"
+    "plain-spoken infra/industry commentary",
+    "the bare-metal platform itself: why we built it and what it buys in deploy speed and performance vs. rented cloud",
+    "custom blockchain onboarding: faster and cheaper than competitors, and why",
+    "deployment flexibility: our data center, the customer's data center, or the customer's own hardware, all with the same bare-metal performance and automated updates"
   ],
   "socialConventions": {
-    "hashtags": "sparingly, only when naming a network or event",
+    "hashtags": "platform-dependent: sparingly on X/LinkedIn, mainly to name a network or event; on Instagram, use them actively, since good hashtag use there drives real discoverability",
     "emoji": "none, or a single one at most",
+    "punctuation": "no em dashes, ever; use a period, comma, or colon instead",
     "postLength": "1-3 short sentences; threads only when reporting a real incident or upgrade in steps",
-    "cta": "specific and low-pressure (e.g. 'ask us what that costs'), never hype-driven"
+    "cta": "specific and low-pressure (e.g. 'ask us what that costs'), rarely hype-driven"
   },
   "examplePosts": {
     "onBrand": [
-      "Base client update landed this week. We're on it across every base-mainnet node we run — no action needed if that's us.",
+      "Base client update landed this week. We're on it across every base-mainnet node we run. No action needed if that's us.",
       "Uptime numbers only mean something next to the incident that tested them. Ask us about the fork we caught at 3am last month.",
-      "New: private RPC endpoints for Solana, same operating model as our Ethereum fleet. Talk to an engineer if you're evaluating providers."
+      "New: private RPC endpoints for our newest supported network, same operating model as our Ethereum fleet. Talk to an engineer if you're evaluating providers.",
+      "Our platform is bare-metal, top to bottom, and we built it ourselves. No hypervisor tax, no noisy neighbors. Deploys land faster than most managed cloud stacks.",
+      "Standing up a new custom chain usually takes competitors weeks and a lot of your budget. We do it faster, for less, because we own the hardware.",
+      "Keep your nodes in your own data center if you need to. You still get bare-metal performance and the same automated updates as our fleet."
     ],
     "offBrand": [
       {
         "post": "🚀🚀 Revolutionizing Web3 infrastructure with our CUTTING-EDGE platform!! #blockchain #AI #web3 #innovation #disrupt",
-        "reason": "hype language, emoji stacking, and hashtag stuffing — the voice guide explicitly avoids all three"
+        "reason": "hype language, emoji stacking, and hashtag stuffing: the voice guide explicitly avoids all three"
       },
       {
         "post": "We guarantee 99.999% uptime on every network, no exceptions!",
-        "reason": "the brand explicitly refuses blanket uptime guarantees — this contradicts stated positioning"
+        "reason": "the brand explicitly refuses blanket uptime guarantees: this contradicts stated positioning"
       }
     ]
   },
