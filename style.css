@@ -189,8 +189,8 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-.do-dont-grid.do h3 { color: var(--primary); }
-.do-dont-grid.dont h3 { color: var(--destructive); }
+.do-dont-grid .do h3 { color: var(--primary); }
+.do-dont-grid .dont h3 { color: var(--destructive); }
 
 .quote {
   border-left: 3px solid var(--primary);
