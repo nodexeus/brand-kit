@@ -1,4 +1,5 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
+import path from 'node:path';
 
 export const REQUIRED_BRAND_KEYS = [
   'name',
@@ -22,4 +23,16 @@ export function loadBrandJson(filePath) {
 
 export function missingRequiredKeys(brand) {
   return REQUIRED_BRAND_KEYS.filter((key) => !(key in brand));
+}
+
+export function missingAssetPaths(brand, baseDir) {
+  const paths = Object.values(brand.logo).filter(
+    (value) => typeof value === 'string' && value.includes('/')
+  );
+  return paths.filter((relativePath) => !existsSync(path.join(baseDir, relativePath)));
+}
+
+export function missingHexInHtml(hexList, htmlText) {
+  const lowerHtml = htmlText.toLowerCase();
+  return hexList.filter((hex) => !lowerHtml.includes(hex.toLowerCase()));
 }
