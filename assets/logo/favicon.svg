@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <g id="badge">
-    <rect x="0" y="0" width="256" height="256" rx="51" ry="51" fill="#fdc700"/>
-    <g id="glyph" transform="translate(48,48)">
-      <path fill="#111114" d="M0,80 L0,160 L46,160 L46,80 A34,34 0 0 1 114,80 L114,160 L160,160 L160,80 A80,80 0 0 0 0,80 Z"/>
-    </g>
+  <g id="glyph" transform="translate(40,40)">
+    <path fill="#fdc700" d="M0,88 L0,176 L46,176 L46,88 A42,42 0 0 1 130,88 L130,176 L176,176 L176,88 A88,88 0 0 0 0,88 Z"/>
   </g>
 </svg>
