@@ -22,7 +22,7 @@ if (missingKeys.length > 0) {
   failed = true;
 }
 
-const missingAssets = missingAssetPaths(brand, repoRoot);
+const missingAssets = missingKeys.includes('logo') ? [] : missingAssetPaths(brand, repoRoot);
 if (missingAssets.length > 0) {
   console.error('brand.json references missing asset files:', missingAssets.join(', '));
   failed = true;

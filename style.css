@@ -14,6 +14,7 @@
   --chart-4: #bb4d00;
   --chart-5: #973c00;
   --destructive: #e7000b;
+  --destructive-on-dark: #ff4d4d;
   --font-sans: "GeistSans", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono: "GeistMono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
@@ -153,7 +154,10 @@ h3 {
   overflow: hidden;
 }
 
-.swatch-color { height: 5rem; }
+.swatch-color {
+  height: 5rem;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.12);
+}
 .swatch-label { padding: 0.75rem 1rem; font-size: 0.8125rem; }
 .swatch-label .hex {
   display: block;
@@ -190,7 +194,7 @@ h3 {
   letter-spacing: 0.05em;
 }
 .do-dont-grid .do h3 { color: var(--primary); }
-.do-dont-grid .dont h3 { color: var(--destructive); }
+.do-dont-grid .dont h3 { color: var(--destructive-on-dark); }
 
 .quote {
   border-left: 3px solid var(--primary);
