@@ -1,6 +1,6 @@
 {
   "name": "Nodexeus Technologies",
-  "tagline": "We run the infrastructure that has to stay up.",
+  "tagline": "Infrastructure and intelligence. Built around your business.",
   "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them. We like ambitious projects, tricky engineering questions, and helping builders get from a working demo to something people can depend on.",
   "website": "https://www.nodexeus.com",
   "colors": {
@@ -160,5 +160,38 @@
       "hook": "The interesting part is why we changed our minds.",
       "followThrough": "Name the choice, the tradeoff, and the evidence. Use actual work and approved details; do not invent a team story to fit the format."
     }
-  ]
+  ],
+  "supportingLine": "Blockchain infrastructure, custom software, and AI automation—integrated and managed by Nodexeus.",
+  "messaging": {
+    "primaryTaglineUsage": "Use the primary tagline for the homepage, company introductions, and broad brand campaigns. Pair it with the supporting line when readers need a concrete description of what Nodexeus offers.",
+    "directions": [
+      {
+        "line": "Your infrastructure. Your workflows. We handle the complexity.",
+        "use": "Managed services and business automation campaigns focused on reducing what customers need to manage."
+      },
+      {
+        "line": "From blockchain infrastructure to business automation.",
+        "use": "Company overviews and introductions that explain the breadth of the offering."
+      },
+      {
+        "line": "Dedicated infrastructure. Integrated intelligence.",
+        "use": "Short headlines and compact layouts presenting infrastructure and AI together."
+      },
+      {
+        "line": "Run your networks. Connect your business.",
+        "use": "Campaigns linking blockchain operations with connected business workflows."
+      },
+      {
+        "line": "The infrastructure behind your next move.",
+        "use": "Campaigns about a customer’s next project, launch, or expansion."
+      }
+    ],
+    "guidelines": [
+      "Choose one headline direction per placement. The alternatives support specific campaigns; the primary tagline remains the default brand line.",
+      "Follow broad headlines with concrete services or customer outcomes.",
+      "Lead with what customers can build, connect, or simplify. Reliability is an expectation, not the central brand promise.",
+      "Describe the Nodexeus AI Intelligence Platform through its customer benefits without naming underlying third-party products.",
+      "Keep roadmap status and development notes out of taglines and general marketing copy."
+    ]
+  }
 }
