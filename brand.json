@@ -44,16 +44,11 @@
       "Make technical ideas approachable. Use concrete details and explain jargon when the audience needs it.",
       "Vary the rhythm. Short hooks, conversational sentences, and deeper explanations all have a place.",
       "Let the subject lead. Hardware is one part of our work, alongside nodes, AI agents, software, and the people building with them.",
+      "Use ambitious language and make it concrete. Synergy, seamless, cutting-edge, revolutionize, unlock, and empower belong when they describe what we deliver. Connect the claim to how the platform works or what customers can accomplish.",
       "Earn confidence with evidence. State limits honestly and support performance or competitor comparisons with current, specific proof.",
       "Match the moment. Be playful in everyday posts; be calm, precise, and helpful during incidents or support conversations."
     ],
     "avoid": [
-      "synergy",
-      "seamless",
-      "cutting-edge",
-      "revolutionize",
-      "unlock",
-      "empower",
       "forced memes, borrowed slang, or jokes that need explaining",
       "jokes at the expense of customers, beginners, or people dealing with an outage",
       "repeating bare metal, no noisy neighbors, or boring infrastructure as the punchline of every story",
@@ -70,7 +65,9 @@
       "New chain, new questions. Start with what you need it to do.",
       "We can talk hardware all day. What are you hoping to run on it?",
       "The best part of a handoff: someone else can actually use what you built.",
-      "Some engineering wins deserve a launch post. Others are deleting a step from the setup guide."
+      "Some engineering wins deserve a launch post. Others are deleting a step from the setup guide.",
+      "Unlock more time for what you’re building. Nodexeus handles the hardware, infrastructure, and node operations.",
+      "A seamless experience starts with fewer things for you to manage. We get the hardware and infrastructure out of the way so you can focus on your application."
     ],
     "toneByContext": {
       "everyday": "Conversational, curious, and lightly witty. A useful observation can stand on its own without a sales pitch.",
@@ -109,12 +106,14 @@
       "We can talk hardware all day. But first: what are you building, and where does it get stuck?",
       "Some engineering wins deserve a launch post. Others are deleting a step from the setup guide. Both count.",
       "An RPC endpoint is how your app asks a blockchain questions. Start with the questions your app needs answered, then work out the capacity.",
-      "What’s a technical explanation that finally made something click for you? We’re always collecting better ways to explain the tricky bits."
+      "What’s a technical explanation that finally made something click for you? We’re always collecting better ways to explain the tricky bits.",
+      "Unlock more time for what you’re building. Nodexeus handles the hardware, infrastructure, and node operations.",
+      "A seamless experience starts with fewer things for you to manage. We get the hardware and infrastructure out of the way so you can focus on your application."
     ],
     "offBrand": [
       {
         "post": "🚀🚀 Revolutionizing Web3 infrastructure with our CUTTING-EDGE platform!! #blockchain #AI #web3 #innovation #disrupt",
-        "reason": "Generic hype and decoration leave readers with nothing useful or distinctive."
+        "reason": "The claim never explains what changed or how customers benefit, and the emoji and hashtag stacks distract from it. Revolutionizing and cutting-edge are welcome when the post makes their meaning concrete."
       },
       {
         "post": "We guarantee 99.999% uptime on every network, no exceptions!",
