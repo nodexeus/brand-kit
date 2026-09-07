@@ -27,62 +27,80 @@
 <main>
   <div class="container">
     <span class="badge">Social</span>
-    <h1>Guidance for on-brand posts</h1>
+    <h1>Give people something to come back for</h1>
     <div class="prose">
-      <p>This page mirrors <a href="brand.json"><code class="mono">brand.json</code></a>. Anything generating posts on Nodexeus's behalf should read that file directly rather than scraping this page.</p>
+      <p>A useful explanation, a familiar building moment, a question worth answering. Our feed should have room for all three. This page mirrors <a href="brand.json"><code class="mono">brand.json</code></a>, the source for tools generating Nodexeus content.</p>
     </div>
-
     <h2>Content pillars</h2>
-    <div class="prose">
-      <ul>
-        <li>Network/client upgrades and fork readiness</li>
-        <li>Uptime and incident transparency (what broke, what we did)</li>
-        <li>New network support / infra launches</li>
-        <li>AI agent and web3 engineering work in production</li>
-        <li>Plain-spoken infra/industry commentary</li>
-        <li>The bare-metal platform itself: why we built it and what it buys in deploy speed and performance vs. rented cloud</li>
-        <li>Custom blockchain onboarding: faster and cheaper than competitors, and why</li>
-        <li>Deployment flexibility: our data center, the customer's data center, or the customer's own hardware, all with the same bare-metal performance and automated updates</li>
-      </ul>
-    </div>
-
+    <div class="prose"><ul>
+        <li>Builder life: recognizable moments, small wins, and lessons from getting a project into production</li>
+        <li>Useful explanations: nodes, RPCs, AI agents, and web3 concepts made approachable</li>
+        <li>Experiments and engineering decisions: what we tried, what we learned, and what we would change, backed by real work</li>
+        <li>People and community: thoughtful questions, team perspectives, and customer work shared with permission</li>
+        <li>Product possibilities: what someone can build and how to get started</li>
+        <li>Network upgrades and launches: what changed and why it matters to the people using it</li>
+        <li>Operations and incident transparency: useful facts, lessons, and clear updates</li>
+        <li>Under the hood: hardware and architecture when they help explain a specific choice or result</li>
+      </ul></div>
     <h2>Conventions</h2>
-    <div class="prose">
-      <ul>
-        <li><strong>Hashtags:</strong> platform-dependent. Sparingly on X/LinkedIn, mainly to name a network or event. On Instagram, use them actively, since good hashtag use there drives real discoverability.</li>
-        <li><strong>Emoji:</strong> none, or a single one at most.</li>
-        <li><strong>Punctuation:</strong> no em dashes, ever. Use a period, comma, or colon instead.</li>
-        <li><strong>Length:</strong> 1-3 short sentences; threads only when reporting a real incident or upgrade in steps.</li>
-        <li><strong>Call to action:</strong> specific and low-pressure (e.g. "ask us what that costs"), rarely hype-driven.</li>
-      </ul>
-    </div>
-
+    <div class="prose"><ul>
+        <li>Hashtags: Use a few relevant tags when they help identify the topic, network, or event. Avoid generic tag piles.</li>
+        <li>Emoji: Optional. Use one or two when they add expression or help someone scan the post; no decorative stacks.</li>
+        <li>Punctuation: No em dashes. Use a period, comma, or colon instead. An occasional exclamation point is welcome when the moment earns it.</li>
+        <li>Length: Let the idea choose the length. Usually 1-3 short sentences; use a thread, carousel, or longer post for an explanation, story, or walkthrough worth the extra space.</li>
+        <li>Call to action: Invite a real answer or a useful next step. Many posts need no CTA. Avoid engagement bait and attaching a sales pitch to every thought.</li>
+        <li>Content mix: Rotate topics and formats. Across a campaign, include something useful, something relatable, and something people can join in on. Avoid consecutive posts making the same hardware or reliability pitch.</li>
+        <li>Using examples: Examples are illustrative copy, not reports of events or customer results. Adapt them to the actual subject. Verify facts and permissions before publishing.</li>
+      </ul></div>
     <h2>On-brand examples</h2>
-    <div class="post-card">Base client update landed this week. We're on it across every base-mainnet node we run. No action needed if that's us.</div>
-    <div class="post-card">Uptime numbers only mean something next to the incident that tested them. Ask us about the fork we caught at 3am last month.</div>
-    <div class="post-card">New: private RPC endpoints for our newest supported network, same operating model as our Ethereum fleet. Talk to an engineer if you're evaluating providers.</div>
-    <div class="post-card">Our platform is bare-metal, top to bottom, and we built it ourselves. No hypervisor tax, no noisy neighbors. Deploys land faster than most managed cloud stacks.</div>
-    <div class="post-card">Standing up a new custom chain usually takes competitors weeks and a lot of your budget. We do it faster, for less, because we own the hardware.</div>
-
+    <div class="post-card">The demo worked. Excellent. Now let’s meet the retry logic.</div>
+    <div class="post-card">Your agent has tools. Does it know when to stop using them? A stopping condition belongs in the design, right next to the happy path.</div>
+    <div class="post-card">A transaction hash is a receipt that you submitted something. Confirmation tells you what happened next. Your app should know the difference.</div>
+    <div class="post-card">What’s one setup step you would happily never do again? We have a soft spot for a good “we automated that” story.</div>
+    <div class="post-card">A good runbook is a favor you do for your future self. Start with the command you always have to look up.</div>
+    <div class="post-card">New chain idea? Tell us what you want it to do. We can get wonderfully nerdy about the details from there.</div>
+    <div class="post-card">We can talk hardware all day. But first: what are you building, and where does it get stuck?</div>
+    <div class="post-card">Some engineering wins deserve a launch post. Others are deleting a step from the setup guide. Both count.</div>
+    <div class="post-card">An RPC endpoint is how your app asks a blockchain questions. Start with the questions your app needs answered, then work out the capacity.</div>
+    <div class="post-card">What’s a technical explanation that finally made something click for you? We’re always collecting better ways to explain the tricky bits.</div>
+    <h2>Campaigns to build on</h2>
+    <div class="prose"><p>Repeat the format, vary the story. Each installment should give the reader a fresh idea or example.</p></div>
+    <h3>Small win club</h3>
+    <div class="prose"><p>A short post or simple card celebrating a real improvement, with a concrete before and after.</p></div>
+    <div class="post-card">What’s the smallest change that made your week easier?</div>
+    <div class="prose"><p>Share an actual improvement from the team, explain why it helped, and invite other builders to share theirs.</p></div>
+    <h3>Past the demo</h3>
+    <div class="prose"><p>A short series or carousel about one question between a prototype and production.</p></div>
+    <div class="post-card">The demo worked. What happens on attempt number two?</div>
+    <div class="prose"><p>Walk through one topic such as retries, permissions, or stopping conditions. Use a worked example and finish with something readers can check in their own project.</p></div>
+    <h3>Explain this bit</h3>
+    <div class="prose"><p>A plain-language explainer with one diagram, analogy, or concrete example.</p></div>
+    <div class="post-card">You have a transaction hash. What do you actually know?</div>
+    <div class="prose"><p>Explain the distinction between submission and confirmation, then show how that changes a user-facing status message.</p></div>
+    <h3>Show your working</h3>
+    <div class="prose"><p>A behind-the-scenes note about a real engineering decision.</p></div>
+    <div class="post-card">The interesting part is why we changed our minds.</div>
+    <div class="prose"><p>Name the choice, the tradeoff, and the evidence. Use actual work and approved details; do not invent a team story to fit the format.</p></div>
     <h2>Off-brand examples</h2>
-    <div class="post-card off-brand">
-      🚀🚀 Revolutionizing Web3 infrastructure with our CUTTING-EDGE platform!! #blockchain #AI #web3 #innovation #disrupt
-      <div class="reason">Why it's off-brand: hype language, emoji stacking, and hashtag stuffing. The voice guide explicitly avoids all three.</div>
+    <div class="post-card off-brand">🚀🚀 Revolutionizing Web3 infrastructure with our CUTTING-EDGE platform!! #blockchain #AI #web3 #innovation #disrupt
+      <div class="reason">Why it’s off-brand: Generic hype and decoration leave readers with nothing useful or distinctive.</div>
     </div>
-    <div class="post-card off-brand">
-      We guarantee 99.999% uptime on every network, no exceptions!
-      <div class="reason">Why it's off-brand: the brand explicitly refuses blanket uptime guarantees. This contradicts stated positioning.</div>
+    <div class="post-card off-brand">We guarantee 99.999% uptime on every network, no exceptions!
+      <div class="reason">Why it’s off-brand: A blanket guarantee is not a substitute for verified service terms and clear limits.</div>
     </div>
-
+    <div class="post-card off-brand">Bare metal. No noisy neighbors. Boring infrastructure. That’s the post. Again.
+      <div class="reason">Why it’s off-brand: Repeats the same hardware talking points and makes dullness the personality.</div>
+    </div>
+    <div class="post-card off-brand">Your node went down? Skill issue.
+      <div class="reason">Why it’s off-brand: The joke targets someone who needs help. Be generous with people and save the wit for shared situations.</div>
+    </div>
     <h2>Visual card rules</h2>
-    <div class="prose">
-      <ul>
-        <li><strong>Background:</strong> ink (#111114) or white, no gradients beyond the existing chart scale.</li>
-        <li><strong>Logo placement:</strong> top-left or centered, minimum clearspace = 1x icon height.</li>
-        <li><strong>Typography:</strong> GeistSans for headline text on cards.</li>
-        <li><strong>Accent:</strong> amber (#fdc700) for at most one focal element per card.</li>
-      </ul>
-    </div>
+    <div class="prose"><ul>
+        <li>Background: ink (#111114) or white, no gradients beyond the existing chart scale</li>
+        <li>Logo placement: top-left or centered, minimum clearspace = 1x icon height</li>
+        <li>Typography: GeistSans for headline text on cards</li>
+        <li>Accent: amber (#fdc700) for at most one focal element per card</li>
+      </ul></div>
   </div>
 </main>
 <footer class="site-footer">
