@@ -32,7 +32,7 @@ truth.
 
 **Copy / positioning**
 - Name: Nodexeus Technologies
-- Tagline: "We run the infrastructure that has to stay up."
+- Tagline: "Infrastructure and intelligence. Built around your business."
 - One-line description: "Nodexeus builds and operates blockchain
   nodes, AI agent platforms and the web3 software around them."
 - Stats: 99.99% uptime target, 20+ networks run, <1 hr deploy time
@@ -43,7 +43,7 @@ truth.
   Avalanche, Cosmos (+ more on request)
 
 **Voice signal (direct quotes to calibrate tone)**
-- "We run the infrastructure that has to stay up."
+- "Infrastructure and intelligence. Built around your business."
 - "Anyone can rent you a server. The work is everything after: watching
   sync state, catching a peer set going bad at 3am, upgrading a client
   the week a fork lands, and knowing which of those needs you woken
@@ -137,7 +137,7 @@ templating engine) — acceptable duplication for ~6 pages.
 ```json
 {
   "name": "Nodexeus Technologies",
-  "tagline": "We run the infrastructure that has to stay up.",
+  "tagline": "Infrastructure and intelligence. Built around your business.",
   "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them.",
   "website": "https://www.nodexeus.com",
   "colors": {
@@ -175,7 +175,7 @@ templating engine) — acceptable duplication for ~6 pages.
     ],
     "avoid": ["synergy", "seamless", "cutting-edge", "revolutionize", "unlock", "empower", "excessive exclamation points", "emoji stacking"],
     "sampleQuotes": [
-      "We run the infrastructure that has to stay up.",
+      "Infrastructure and intelligence. Built around your business.",
       "Anyone can rent you a server. The work is everything after.",
       "Not a tarball and good luck."
     ]

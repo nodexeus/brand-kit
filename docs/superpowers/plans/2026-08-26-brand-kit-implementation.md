@@ -171,7 +171,7 @@ Create `brand.json` at the repo root:
 ```json
 {
   "name": "Nodexeus Technologies",
-  "tagline": "We run the infrastructure that has to stay up.",
+  "tagline": "Infrastructure and intelligence. Built around your business.",
   "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them.",
   "website": "https://www.nodexeus.com",
   "colors": {
@@ -219,7 +219,7 @@ Create `brand.json` at the repo root:
       "emoji stacking"
     ],
     "sampleQuotes": [
-      "We run the infrastructure that has to stay up.",
+      "Infrastructure and intelligence. Built around your business.",
       "Anyone can rent you a server. The work is everything after.",
       "Not a tarball and good luck.",
       "We do not publish a blanket uptime guarantee, because one that covers every network and every hardware configuration would be worth nothing."
@@ -905,7 +905,7 @@ Create `index.html`:
     <section>
       <span class="badge">Brand Kit</span>
       <h1>Nodexeus Brand Kit</h1>
-      <p class="tagline">We run the infrastructure that has to stay up.</p>
+      <p class="tagline">Infrastructure and intelligence. Built around your business.</p>
       <div class="prose">
         <p>Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them. This kit documents the logo, color, type, voice, and social conventions drawn from nodexeus.com, plus a machine-readable <a href="brand.json"><code class="mono">brand.json</code></a> for anything that needs to generate on-brand content.</p>
       </div>
@@ -1284,7 +1284,7 @@ Create `type.html` (header/footer as before, "Type" nav link gets
     <h2>GeistSans</h2>
     <div class="type-sample">
       <span class="label">Heading / 800</span>
-      <div style="font-family: var(--font-sans); font-weight: 800; font-size: 2rem; letter-spacing: -0.02em;">We run the infrastructure that has to stay up.</div>
+      <div style="font-family: var(--font-sans); font-weight: 800; font-size: 2rem; letter-spacing: -0.02em;">Infrastructure and intelligence. Built around your business.</div>
     </div>
     <div class="type-sample">
       <span class="label">Body / 400</span>
@@ -1396,7 +1396,7 @@ Create `voice.html` (header/footer as before, "Voice" nav link gets
     </div>
 
     <h2>In their own words</h2>
-    <blockquote class="quote">"We run the infrastructure that has to stay up."</blockquote>
+    <blockquote class="quote">"Infrastructure and intelligence. Built around your business."</blockquote>
     <blockquote class="quote">"Anyone can rent you a server. The work is everything after: watching sync state, catching a peer set going bad at 3am, upgrading a client the week a fork lands, and knowing which of those needs you woken up."</blockquote>
     <blockquote class="quote">"If we keep it, we are on call for it. If you take it, you get the runbooks, the monitoring and the access — not a tarball and good luck."</blockquote>
     <blockquote class="quote">"We do not publish a blanket uptime guarantee, because one that covers every network and every hardware configuration would be worth nothing."</blockquote>
