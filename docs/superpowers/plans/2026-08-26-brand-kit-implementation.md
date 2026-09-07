@@ -175,7 +175,7 @@ Create `brand.json` at the repo root:
   "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them.",
   "website": "https://www.nodexeus.com",
   "colors": {
-    "ink": "#111114",
+    "ink": "#050506",
     "inkForeground": "#fafafa",
     "inkMuted": "#a4a4ac",
     "white": "#ffffff",
@@ -256,7 +256,7 @@ Create `brand.json` at the repo root:
     ]
   },
   "visualCardRules": {
-    "background": "ink (#111114) or white, no gradients beyond the existing chart scale",
+    "background": "ink (#050506) or white, no gradients beyond the existing chart scale",
     "logoPlacement": "top-left or centered, minimum clearspace = 1x icon height",
     "typography": "GeistSans for headline text on cards",
     "accentUsage": "amber (#fdc700) for at most one focal element per card"
@@ -333,8 +333,8 @@ test('missingAssetPaths returns paths that do not exist on disk', () => {
 
 test('missingHexInHtml finds hex values absent from the given HTML text', () => {
   const html = '<div style="color:#FDC700">amber</div>';
-  const missing = missingHexInHtml(['#fdc700', '#111114'], html);
-  assert.deepEqual(missing, ['#111114']);
+  const missing = missingHexInHtml(['#fdc700', '#050506'], html);
+  assert.deepEqual(missing, ['#050506']);
 });
 ```
 
@@ -481,7 +481,7 @@ Definitions to use consistently:
 - `mark-amber-on-dark.svg`: the primary full-color mark — amber
   (`#fdc700`) rounded-square badge containing a solid black glyph.
   Intended placement: dark backgrounds (matches the live nav usage).
-- `mark-black-on-light.svg`: single solid black (`#111114`) version of
+- `mark-black-on-light.svg`: single solid black (`#050506`) version of
   just the glyph (no colored badge), for light backgrounds needing one
   ink color.
 - `mark-mono.svg`: the glyph using `fill="currentColor"` so it can be
@@ -489,7 +489,7 @@ Definitions to use consistently:
 - `wordmark-lockup-dark.svg`: `mark-amber-on-dark.svg` + "Nodexeus" set
   in GeistSans (fallback: system sans-serif), text color `#fafafa`,
   for dark backgrounds.
-- `wordmark-lockup-light.svg`: same lockup, text color `#111114`, for
+- `wordmark-lockup-light.svg`: same lockup, text color `#050506`, for
   light backgrounds.
 - `favicon.svg`: simplified square icon version of the amber mark,
   legible at 16-32px.
@@ -512,7 +512,7 @@ Invoke `Skill(logo-designer)` with this brief:
 
 > Recreate a company mark as clean, hand-authored SVG (real `<path>`
 > geometry, not embedded raster). Reference shape: a rounded-square
-> badge in amber `#fdc700` containing a solid black `#111114`
+> badge in amber `#fdc700` containing a solid black `#050506`
 > rounded-arch glyph — like a stone archway or tunnel entrance viewed
 > head-on — centered with roughly 20% padding on all sides, badge
 > corner radius approximately 20% of the badge width. Deliver these
@@ -628,7 +628,7 @@ Create `style.css`:
 
 ```css
 :root {
-  --ink: #111114;
+  --ink: #050506;
   --ink-foreground: #fafafa;
   --ink-muted: #a4a4ac;
   --white: #ffffff;
@@ -1162,7 +1162,7 @@ gets `aria-current="page"`):
 
     <h2>Dark surface</h2>
     <div class="swatch-grid">
-      <div class="swatch"><div class="swatch-color" style="background:#111114;"></div><div class="swatch-label">Ink<span class="hex">#111114</span></div></div>
+      <div class="swatch"><div class="swatch-color" style="background:#050506;"></div><div class="swatch-label">Ink<span class="hex">#050506</span></div></div>
       <div class="swatch"><div class="swatch-color" style="background:#fafafa;"></div><div class="swatch-label">Ink Foreground<span class="hex">#fafafa</span></div></div>
       <div class="swatch"><div class="swatch-color" style="background:#a4a4ac;"></div><div class="swatch-label">Ink Muted<span class="hex">#a4a4ac</span></div></div>
     </div>
@@ -1205,7 +1205,7 @@ gets `aria-current="page"`):
 - [ ] **Step 2: Verify every brand.json hex value appears in this file**
 
 ```bash
-for hex in "#111114" "#fafafa" "#a4a4ac" "#ffffff" "#f4f4f5" "#71717b" "#e4e4e7" "#fdc700" "#dfa800" "#ffd230" "#fe9a00" "#e17100" "#bb4d00" "#973c00" "#e7000b"; do
+for hex in "#050506" "#fafafa" "#a4a4ac" "#ffffff" "#f4f4f5" "#71717b" "#e4e4e7" "#fdc700" "#dfa800" "#ffd230" "#fe9a00" "#e17100" "#bb4d00" "#973c00" "#e7000b"; do
   grep -qi "$hex" color.html && echo "found: $hex" || echo "MISSING: $hex"
 done
 ```
@@ -1548,7 +1548,7 @@ Create `social.html` (header/footer as before, "Social" nav link gets
     <h2>Visual card rules</h2>
     <div class="prose">
       <ul>
-        <li><strong>Background:</strong> ink (#111114) or white — no gradients beyond the existing chart scale.</li>
+        <li><strong>Background:</strong> ink (#050506) or white — no gradients beyond the existing chart scale.</li>
         <li><strong>Logo placement:</strong> top-left or centered, minimum clearspace = 1x icon height.</li>
         <li><strong>Typography:</strong> GeistSans for headline text on cards.</li>
         <li><strong>Accent:</strong> amber (#fdc700) for at most one focal element per card.</li>

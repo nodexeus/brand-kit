@@ -63,7 +63,7 @@ openly skeptical of marketing puffery, comfortable stating limits.
 **Colors** (converted from the site's computed LAB values to sRGB hex)
 | Token | Hex | Role |
 |---|---|---|
-| `ink` | `#111114` | primary dark background |
+| `ink` | `#050506` | primary dark background |
 | `ink-foreground` | `#fafafa` | text/icons on dark |
 | `ink-muted` | `#a4a4ac` | secondary text on dark |
 | `white` / `card` | `#ffffff` | light surface |
@@ -141,7 +141,7 @@ templating engine) — acceptable duplication for ~6 pages.
   "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them.",
   "website": "https://www.nodexeus.com",
   "colors": {
-    "ink": "#111114",
+    "ink": "#050506",
     "inkForeground": "#fafafa",
     "inkMuted": "#a4a4ac",
     "white": "#ffffff",
@@ -201,7 +201,7 @@ templating engine) — acceptable duplication for ~6 pages.
     ]
   },
   "visualCardRules": {
-    "background": "ink (#111114) or white, no gradients beyond the existing chart scale",
+    "background": "ink (#050506) or white, no gradients beyond the existing chart scale",
     "logoPlacement": "top-left or centered, minimum clearspace = 1x icon height",
     "typography": "GeistSans for headline text on cards",
     "accentUsage": "amber (#fdc700) for at most one focal element per card"
