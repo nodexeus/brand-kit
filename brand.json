@@ -1,7 +1,7 @@
 {
   "name": "Nodexeus Technologies",
   "tagline": "We run the infrastructure that has to stay up.",
-  "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them, on a custom-built bare-metal platform we own top to bottom, not a resold cloud stack. That control is why deploys land faster than most managed cloud providers.",
+  "description": "Nodexeus builds and operates blockchain nodes, AI agent platforms and the web3 software around them. We like ambitious projects, tricky engineering questions, and helping builders get from a working demo to something people can depend on.",
   "website": "https://www.nodexeus.com",
   "colors": {
     "ink": "#111114",
@@ -13,7 +13,13 @@
     "border": "#e4e4e7",
     "primary": "#fdc700",
     "amberDeep": "#dfa800",
-    "chartScale": ["#ffd230", "#fe9a00", "#e17100", "#bb4d00", "#973c00"],
+    "chartScale": [
+      "#ffd230",
+      "#fe9a00",
+      "#e17100",
+      "#bb4d00",
+      "#973c00"
+    ],
     "destructive": "#e7000b"
   },
   "fonts": {
@@ -32,12 +38,14 @@
   },
   "voice": {
     "principles": [
-      "engineer-to-engineer, not marketing-to-buyer",
-      "specific beats vague: name the failure mode, not the fear",
-      "state limits honestly instead of overselling",
-      "short, declarative sentences over hedged ones",
-      "our infrastructure is custom-built, not off-the-shelf: say so plainly, backed by the mechanism or number that proves it",
-      "a blunt, even provocative claim is fine when it's true and specific: that's confidence, not hype"
+      "Sound like a knowledgeable teammate: warm, direct, curious, and happy to explain.",
+      "Bring some personality. Dry wit, playful observations, and a well-placed question belong here.",
+      "Start with something people recognize: a building challenge, a small win, an interesting question, or a useful lesson.",
+      "Make technical ideas approachable. Use concrete details and explain jargon when the audience needs it.",
+      "Vary the rhythm. Short hooks, conversational sentences, and deeper explanations all have a place.",
+      "Let the subject lead. Hardware is one part of our work, alongside nodes, AI agents, software, and the people building with them.",
+      "Earn confidence with evidence. State limits honestly and support performance or competitor comparisons with current, specific proof.",
+      "Match the moment. Be playful in everyday posts; be calm, precise, and helpful during incidents or support conversations."
     ],
     "avoid": [
       "synergy",
@@ -46,57 +54,79 @@
       "revolutionize",
       "unlock",
       "empower",
-      "excessive exclamation points",
-      "emoji stacking",
-      "bold claims with nothing concrete behind them",
+      "forced memes, borrowed slang, or jokes that need explaining",
+      "jokes at the expense of customers, beginners, or people dealing with an outage",
+      "repeating bare metal, no noisy neighbors, or boring infrastructure as the punchline of every story",
+      "competitor put-downs or performance claims without evidence",
+      "invented launches, incidents, customer stories, or metrics",
+      "excessive exclamation points or emoji stacking",
       "em dashes in any post copy; use a period, comma, or colon instead"
     ],
     "sampleQuotes": [
-      "We run the infrastructure that has to stay up.",
-      "Anyone can rent you a server. The work is everything after.",
-      "Not a tarball and good luck.",
-      "We do not publish a blanket uptime guarantee, because one that covers every network and every hardware configuration would be worth nothing.",
-      "We didn't rent a cloud stack and slap a logo on it. We built the bare metal underneath it ourselves.",
-      "Most 'cloud platforms' are someone else's hardware with a markup. Ours is ours, which is why a deploy here beats theirs on speed.",
-      "No hypervisor tax, no noisy neighbors, no waiting on someone else's capacity plan: that's what owning the metal buys you.",
-      "Onboarding a new custom chain takes competitors weeks and a lot of your budget. We do it faster and for less, because we're not renting the hardware underneath it.",
-      "Run it in our data center or yours, on our hardware or your own. Same bare-metal performance, same automated updates, either way."
-    ]
+      "Big idea? We like those. Tell us what you want to build.",
+      "The demo worked. Excellent. Now let’s meet the retry logic.",
+      "Your agent has tools. Does it know when to stop using them?",
+      "A good runbook is a favor you do for your future self.",
+      "New chain, new questions. Start with what you need it to do.",
+      "We can talk hardware all day. What are you hoping to run on it?",
+      "The best part of a handoff: someone else can actually use what you built.",
+      "Some engineering wins deserve a launch post. Others are deleting a step from the setup guide."
+    ],
+    "toneByContext": {
+      "everyday": "Conversational, curious, and lightly witty. A useful observation can stand on its own without a sales pitch.",
+      "education": "Generous and approachable. Explain one idea well; make beginners feel welcome.",
+      "launches": "Show some excitement. Name what changed, who it helps, and what they can try. Verify availability before publishing.",
+      "incidents": "Lead with impact, known facts, action underway, and the next update. Save jokes and promotion for another time."
+    }
   },
   "socialContentPillars": [
-    "network/client upgrades and fork readiness",
-    "uptime and incident transparency (what broke, what we did)",
-    "new network support / infra launches",
-    "AI agent and web3 engineering work in production",
-    "plain-spoken infra/industry commentary",
-    "the bare-metal platform itself: why we built it and what it buys in deploy speed and performance vs. rented cloud",
-    "custom blockchain onboarding: faster and cheaper than competitors, and why",
-    "deployment flexibility: our data center, the customer's data center, or the customer's own hardware, all with the same bare-metal performance and automated updates"
+    "Builder life: recognizable moments, small wins, and lessons from getting a project into production",
+    "Useful explanations: nodes, RPCs, AI agents, and web3 concepts made approachable",
+    "Experiments and engineering decisions: what we tried, what we learned, and what we would change, backed by real work",
+    "People and community: thoughtful questions, team perspectives, and customer work shared with permission",
+    "Product possibilities: what someone can build and how to get started",
+    "Network upgrades and launches: what changed and why it matters to the people using it",
+    "Operations and incident transparency: useful facts, lessons, and clear updates",
+    "Under the hood: hardware and architecture when they help explain a specific choice or result"
   ],
   "socialConventions": {
-    "hashtags": "platform-dependent: sparingly on X/LinkedIn, mainly to name a network or event; on Instagram, use them actively, since good hashtag use there drives real discoverability",
-    "emoji": "none, or a single one at most",
-    "punctuation": "no em dashes, ever; use a period, comma, or colon instead",
-    "postLength": "1-3 short sentences; threads only when reporting a real incident or upgrade in steps",
-    "cta": "specific and low-pressure (e.g. 'ask us what that costs'), rarely hype-driven"
+    "hashtags": "Use a few relevant tags when they help identify the topic, network, or event. Avoid generic tag piles.",
+    "emoji": "Optional. Use one or two when they add expression or help someone scan the post; no decorative stacks.",
+    "punctuation": "No em dashes. Use a period, comma, or colon instead. An occasional exclamation point is welcome when the moment earns it.",
+    "postLength": "Let the idea choose the length. Usually 1-3 short sentences; use a thread, carousel, or longer post for an explanation, story, or walkthrough worth the extra space.",
+    "cta": "Invite a real answer or a useful next step. Many posts need no CTA. Avoid engagement bait and attaching a sales pitch to every thought.",
+    "contentMix": "Rotate topics and formats. Across a campaign, include something useful, something relatable, and something people can join in on. Avoid consecutive posts making the same hardware or reliability pitch.",
+    "exampleUse": "Examples are illustrative copy, not reports of events or customer results. Adapt them to the actual subject. Verify facts and permissions before publishing."
   },
   "examplePosts": {
     "onBrand": [
-      "Base client update landed this week. We're on it across every base-mainnet node we run. No action needed if that's us.",
-      "Uptime numbers only mean something next to the incident that tested them. Ask us about the fork we caught at 3am last month.",
-      "New: private RPC endpoints for our newest supported network, same operating model as our Ethereum fleet. Talk to an engineer if you're evaluating providers.",
-      "Our platform is bare-metal, top to bottom, and we built it ourselves. No hypervisor tax, no noisy neighbors. Deploys land faster than most managed cloud stacks.",
-      "Standing up a new custom chain usually takes competitors weeks and a lot of your budget. We do it faster, for less, because we own the hardware.",
-      "Keep your nodes in your own data center if you need to. You still get bare-metal performance and the same automated updates as our fleet."
+      "The demo worked. Excellent. Now let’s meet the retry logic.",
+      "Your agent has tools. Does it know when to stop using them? A stopping condition belongs in the design, right next to the happy path.",
+      "A transaction hash is a receipt that you submitted something. Confirmation tells you what happened next. Your app should know the difference.",
+      "What’s one setup step you would happily never do again? We have a soft spot for a good “we automated that” story.",
+      "A good runbook is a favor you do for your future self. Start with the command you always have to look up.",
+      "New chain idea? Tell us what you want it to do. We can get wonderfully nerdy about the details from there.",
+      "We can talk hardware all day. But first: what are you building, and where does it get stuck?",
+      "Some engineering wins deserve a launch post. Others are deleting a step from the setup guide. Both count.",
+      "An RPC endpoint is how your app asks a blockchain questions. Start with the questions your app needs answered, then work out the capacity.",
+      "What’s a technical explanation that finally made something click for you? We’re always collecting better ways to explain the tricky bits."
     ],
     "offBrand": [
       {
         "post": "🚀🚀 Revolutionizing Web3 infrastructure with our CUTTING-EDGE platform!! #blockchain #AI #web3 #innovation #disrupt",
-        "reason": "hype language, emoji stacking, and hashtag stuffing: the voice guide explicitly avoids all three"
+        "reason": "Generic hype and decoration leave readers with nothing useful or distinctive."
       },
       {
         "post": "We guarantee 99.999% uptime on every network, no exceptions!",
-        "reason": "the brand explicitly refuses blanket uptime guarantees: this contradicts stated positioning"
+        "reason": "A blanket guarantee is not a substitute for verified service terms and clear limits."
+      },
+      {
+        "post": "Bare metal. No noisy neighbors. Boring infrastructure. That’s the post. Again.",
+        "reason": "Repeats the same hardware talking points and makes dullness the personality."
+      },
+      {
+        "post": "Your node went down? Skill issue.",
+        "reason": "The joke targets someone who needs help. Be generous with people and save the wit for shared situations."
       }
     ]
   },
@@ -105,5 +135,31 @@
     "logoPlacement": "top-left or centered, minimum clearspace = 1x icon height",
     "typography": "GeistSans for headline text on cards",
     "accentUsage": "amber (#fdc700) for at most one focal element per card"
-  }
+  },
+  "socialCampaignFormats": [
+    {
+      "name": "Small win club",
+      "format": "A short post or simple card celebrating a real improvement, with a concrete before and after.",
+      "hook": "What’s the smallest change that made your week easier?",
+      "followThrough": "Share an actual improvement from the team, explain why it helped, and invite other builders to share theirs."
+    },
+    {
+      "name": "Past the demo",
+      "format": "A short series or carousel about one question between a prototype and production.",
+      "hook": "The demo worked. What happens on attempt number two?",
+      "followThrough": "Walk through one topic such as retries, permissions, or stopping conditions. Use a worked example and finish with something readers can check in their own project."
+    },
+    {
+      "name": "Explain this bit",
+      "format": "A plain-language explainer with one diagram, analogy, or concrete example.",
+      "hook": "You have a transaction hash. What do you actually know?",
+      "followThrough": "Explain the distinction between submission and confirmation, then show how that changes a user-facing status message."
+    },
+    {
+      "name": "Show your working",
+      "format": "A behind-the-scenes note about a real engineering decision.",
+      "hook": "The interesting part is why we changed our minds.",
+      "followThrough": "Name the choice, the tradeoff, and the evidence. Use actual work and approved details; do not invent a team story to fit the format."
+    }
+  ]
 }
