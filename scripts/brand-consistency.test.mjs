@@ -62,6 +62,6 @@ test('missingAssetPaths returns paths that do not exist on disk', () => {
 
 test('missingHexInHtml finds hex values absent from the given HTML text', () => {
   const html = '<div style="color:#FDC700">amber</div>';
-  const missing = missingHexInHtml(['#fdc700', '#111114'], html);
-  assert.deepEqual(missing, ['#111114']);
+  const missing = missingHexInHtml(['#fdc700', '#050506'], html);
+  assert.deepEqual(missing, ['#050506']);
 });

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 56">
   <g id="icon" transform="translate(4,4) scale(0.1875)">
     <g transform="translate(48,48)">
-      <path fill="#111114" d="M0,80 L0,148 Q0,160 12,160 L40,160 L40,80 A40,40 0 0 1 120,80 L120,160 L148,160 Q160,160 160,148 L160,80 A80,80 0 0 0 0,80 Z"/>
+      <path fill="#050506" d="M0,80 L0,148 Q0,160 12,160 L40,160 L40,80 A40,40 0 0 1 120,80 L120,160 L148,160 Q160,160 160,148 L160,80 A80,80 0 0 0 0,80 Z"/>
     </g>
   </g>
-  <text id="wordmark" x="66" y="38" font-family="GeistSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="28" letter-spacing="-0.4" fill="#111114">Nodexeus</text>
+  <text id="wordmark" x="66" y="38" font-family="GeistSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="28" letter-spacing="-0.4" fill="#050506">Nodexeus</text>
 </svg>
